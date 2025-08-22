@@ -33,16 +33,16 @@ Aplikasi ini menggunakan file `.env` untuk menyimpan variabel penting dan rahasi
 
     ```env
     # API Key dari Etherscan.io
-ETHERSCAN_API_KEY=MASUKKAN_API_KEY_ANDA
+    ETHERSCAN_API_KEY=MASUKKAN_API_KEY_ANDA
 
-# Token bot dari @BotFather di Telegram
-TELEGRAM_TOKEN=MASUKKAN_TOKEN_ANDA
+    # Token bot dari @BotFather di Telegram
+    TELEGRAM_TOKEN=MASUKKAN_TOKEN_ANDA
 
-# evm address
-EVM_ADDRESS=0x9B8DbF1107ABd4e103ae636f7CD7e1bE53A343d3
+    # evm address
+    EVM_ADDRESS=0x9B8DbF1107ABd4e103ae636f7CD7e1bE53A343d3
 
-# Time interval for checking (second)
-CHECK_INTERVAL=60
+    # Time interval for checking (second)
+    CHECK_INTERVAL=60
     ```
 
 3.  Selain itu, Anda juga bisa mengubah alamat wallet yang ingin dipantau. Buka file `decoder.js` dan ubah nilai variabel `walletAddress`.
