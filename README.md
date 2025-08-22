@@ -38,7 +38,7 @@ Aplikasi ini menggunakan file `.env` untuk menyimpan variabel penting dan rahasi
     # Token bot dari @BotFather di Telegram
     TELEGRAM_TOKEN=MASUKKAN_TOKEN_ANDA
 
-    # evm address
+    # evm address yang ingin dipantau
     EVM_ADDRESS=0x9B8DbF1107ABd4e103ae636f7CD7e1bE53A343d3
 
     # Time interval for checking (second)
